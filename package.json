@@ -51,5 +51,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "homepage": "https://shixianzhou.github.io/github-actions-demo"
 }
