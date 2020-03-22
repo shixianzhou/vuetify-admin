@@ -1,204 +1,290 @@
 <template>
-	<v-container fluid>
-		<v-btn
-			color="pink"
-			dark
-
-			fixed
-			bottom
-			right
-			fab
-		>
-			<v-icon>mdi-plus</v-icon>
-		</v-btn>
-		<div class="title font-weight-regular">基础信息</div>
-		<v-row class="spacing-playground pa-2 mb-5">
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="书源URL（bookSourceUrl）"
-					append-icon="*"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="书源名称（bookSourceName）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="书源分组（bookSourceGroup）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="登录URL（loginUrl）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="检测URL（checkUrl）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="User-Agent"
-					clearable
-				></v-text-field>
-			</v-col>
-		</v-row>
-		<div class="title font-weight-regular">发现规则</div>
-		<v-row class="spacing-playground pa-2 mb-5">
-			<v-col cols="12" md="6">
-				<v-textarea
-					name="input-7-1"
-					label="发现规则（ruleFindUrl）"
-					value=""
-					hint="Hint text"
-				></v-textarea>
-			</v-col>
-		</v-row>
-		<div class="title font-weight-regular">搜索规则</div>
-		<v-row class="spacing-playground pa-2 mb-5">
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索地址（ruleSearchUrl）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果列表（ruleSearchList）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果封面（ruleSearchCoverUrl）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果书名（ruleSearchName）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果作者（ruleSearchAuthor）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果分类（ruleSearchKind）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果最新章节（ruleSearchLastChapter）"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="搜索结果书籍地址（ruleSearchNoteUrl）"
-					clearable
-				></v-text-field>
-			</v-col>
-		</v-row>
-		<div class="title font-weight-regular">书籍内容规则</div>
-		<v-row class="spacing-playground pa-2 mb-5">
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-			<v-col cols="12" md="4">
-				<v-text-field
-					label="Regular"
-					clearable
-				></v-text-field>
-			</v-col>
-		</v-row>
-	</v-container>
+  <v-container fluid>
+    <v-btn
+      color="pink"
+      dark
+      fixed
+      bottom
+      right
+      fab
+    >
+      <v-icon>mdi-plus</v-icon>
+    </v-btn>
+    <div class="title font-weight-regular">基础信息</div>
+    <v-row class="spacing-playground pa-2 mb-5">
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="书源URL（bookSourceUrl）"
+          append-icon="*"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="书源名称（bookSourceName）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="书源分组（bookSourceGroup）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="登录URL（loginUrl）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="检测URL（checkUrl）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="User-Agent"
+          clearable
+        ></v-text-field>
+      </v-col>
+    </v-row>
+    <div class="title font-weight-regular">发现规则</div>
+    <v-row class="spacing-playground pa-2 mb-5">
+      <v-col
+        cols="12"
+        md="6"
+      >
+        <v-textarea
+          name="input-7-1"
+          label="发现规则（ruleFindUrl）"
+          value=""
+          hint="Hint text"
+        ></v-textarea>
+      </v-col>
+    </v-row>
+    <div class="title font-weight-regular">搜索规则</div>
+    <v-row class="spacing-playground pa-2 mb-5">
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索地址（ruleSearchUrl）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果列表（ruleSearchList）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果封面（ruleSearchCoverUrl）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果书名（ruleSearchName）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果作者（ruleSearchAuthor）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果分类（ruleSearchKind）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果最新章节（ruleSearchLastChapter）"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="搜索结果书籍地址（ruleSearchNoteUrl）"
+          clearable
+        ></v-text-field>
+      </v-col>
+    </v-row>
+    <div class="title font-weight-regular">书籍内容规则</div>
+    <v-row class="spacing-playground pa-2 mb-5">
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-text-field
+          label="Regular"
+          clearable
+        ></v-text-field>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
